@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1744207788 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\acomodo.cpp
+
+1744212530 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\captura&impresion\captura.cpp
+	"../Combinaciones.h"
+
+1744208034 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\captura&impresion\impresion.cpp
+
+1744212273 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\combinaciones.cpp
+
+1744212599 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\main.cpp
+	<iostream>
+	<iomanip>
+	"Captura.h"
+
+1744210640 c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\captura.h
+
+1744212104 c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\combinaciones.h
+
