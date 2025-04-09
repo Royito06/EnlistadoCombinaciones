@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include "Captura.h"
+#include "Impresion.h"
 
 using namespace std;
 
@@ -12,9 +13,20 @@ int main()
     int ArregloTam=0;
 
     int* Arreglo= nullptr;
-    ArregloTam=CreaArreglo(ArregloTam,Arreglo);
+
+    int n,r;
+    cout<<"Introduzca el valor de n: ";
+    cin>>n;
+    cout<<"Introduzca el valor de r: ";
+    cin>>r;
+
+    ArregloTam=CreaArreglo(ArregloTam,Arreglo,n,r);
 
     cout<<"Las combinaciones de n en r son: "<<ArregloTam;
+    cout<<endl<<endl;
+    ImpresionArreglo(Arreglo,n);
+
+    delete[] Arreglo;
 
     return 0;
 }

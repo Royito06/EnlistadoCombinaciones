@@ -3,20 +3,22 @@
 
 using namespace std;
 
-int CreaArreglo(int Tamanio, int* Arreglo)
+int CreaArreglo(int Tamanio, int* &Arreglo,int n, int r)
 {
-    int n,r;
-    cout<<"Introduzca el valor de n: ";
-    cin>>n;
-    cout<<"Introduzca el valor de r: ";
-    cin>>r;
+
 
     Tamanio=Combinaciones(n,r);
 
     delete []Arreglo;
 
-    Arreglo = new int[Tamanio];
+    Arreglo = new int[n];
+
+    for(int i=0;i<n;i++)
+    {
+        Arreglo[i]=i+1;
+    }
 
     return Tamanio;
+    return n;
 
 }
