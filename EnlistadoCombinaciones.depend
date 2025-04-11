@@ -1,24 +1,36 @@
 # depslib dependency file v1.0
 1744207788 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\acomodo.cpp
 
-1744214156 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\captura&impresion\captura.cpp
-	<iostream>
-	"../Combinaciones.h"
+1744252135 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\captura&impresion\captura.cpp
 
-1744214325 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\captura&impresion\impresion.cpp
+1744398058 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\captura&impresion\impresion.cpp
 	<iostream>
+	<fstream>
+	<string>
 
 1744212273 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\combinaciones.cpp
 
-1744214380 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\main.cpp
+1744399500 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\main.cpp
 	<iostream>
 	<iomanip>
-	"Captura.h"
+	"Combinaciones.h"
 	"Impresion.h"
+	"capturaSegura.tpp"
 
-1744214186 c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\captura.h
+1744252135 c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\captura.h
 
 1744212104 c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\combinaciones.h
 
-1744214325 c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\impresion.h
+1744396333 c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\impresion.h
+	<iostream>
+	<fstream>
+	<string>
+
+1744399632 c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\capturasegura.tpp
+	<iostream>
+
+1744398058 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\impresion.cpp
+	<iostream>
+	<fstream>
+	<string>
 
