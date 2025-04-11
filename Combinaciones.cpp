@@ -1,7 +1,7 @@
 
-long double Factorial(int num)
+long long Factorial(int num)
 {
-    long double fact=1;
+    long long fact=1;
 
      for(int i=2;i<=num;i++)
      {
@@ -10,9 +10,9 @@ long double Factorial(int num)
  return fact;
 }
 
-long double Combinaciones(int n, int r)
+long long Combinaciones(int n, int r)
 {
-    long double combinacion;
+    long long combinacion;
 
     combinacion=Factorial(n)/(Factorial(r)*(Factorial(n-r)));
     return combinacion;

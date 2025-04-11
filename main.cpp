@@ -53,9 +53,6 @@ int main()
 
     cout << "\nGenerando combinaciones de un conjunto de tama\244o " << n << " en cadenas de tama\244o " << r <<":\n";
 
-    long double combinacionesTeoricas=Combinaciones(n,r);
-    cout<<"\nTe/242ricamente el n/243mero de combinaciones deber/326a ser: "<<combinacionesTeoricas<<"\n";
-
     string filename;
     cout << "\nIngrese el nombre del archivo CSV: ";
 
@@ -65,6 +62,17 @@ int main()
     int combinacionesGeneradas=0;
     generarCombinaciones(n,combinacionesGeneradas, r, filename);
     cout<<"\nEl total de combinaciones generadas fue: "<<combinacionesGeneradas<<"\n";
+
+    long combinacionesTeoricas=Combinaciones(n,r);
+    cout<<"\nEl n/243mero de combinaciones calculadas con la formula del coeficiente binomial C(n,r) es: "<<combinacionesTeoricas<<"\n";
+
+    if(combinacionesGeneradas==combinacionesTeoricas)
+    {
+        cout<<"\nComo se puede ver la cantidad de ambas es la misma.\n";
+    }else
+    {
+        cout<<"\nLa cantidad obtenida en ambas difiere";
+    }
 
     return 0;
 }

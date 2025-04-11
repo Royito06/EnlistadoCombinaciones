@@ -34,12 +34,11 @@
 		</Compiler>
 		<Unit filename="Acomodo.cpp" />
 		<Unit filename="Acomodo.h" />
-		<Unit filename="Captura&amp;Impresion/Captura.cpp" />
-		<Unit filename="Captura&amp;Impresion/Impresion.cpp" />
-		<Unit filename="Captura.h" />
 		<Unit filename="Combinaciones.cpp" />
 		<Unit filename="Combinaciones.h" />
+		<Unit filename="Impresion.cpp" />
 		<Unit filename="Impresion.h" />
+		<Unit filename="capturaSegura.tpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
