@@ -64,7 +64,7 @@ int main()
     cout<<"\nEl total de combinaciones generadas fue: "<<combinacionesGeneradas<<"\n";
 
     long combinacionesTeoricas=Combinaciones(n,r);
-    cout<<"\nEl n/243mero de combinaciones calculadas con la formula del coeficiente binomial C(n,r) es: "<<combinacionesTeoricas<<"\n";
+    cout<<"\nEl n\243mero de combinaciones calculadas con la formula del coeficiente binomial C(n,r) es: "<<combinacionesTeoricas<<"\n";
 
     if(combinacionesGeneradas==combinacionesTeoricas)
     {
