@@ -34,3 +34,27 @@
 	<fstream>
 	<string>
 
+1744404450 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\programa\combinaciones.cpp
+
+1744398058 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\programa\impresion.cpp
+	<iostream>
+	<fstream>
+	<string>
+
+1744417187 source:c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\programa\main.cpp
+	<iostream>
+	<iomanip>
+	"Combinaciones.h"
+	"Impresion.h"
+	"capturaSegura.tpp"
+
+1744404450 c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\programa\combinaciones.h
+
+1744396333 c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\programa\impresion.h
+	<iostream>
+	<fstream>
+	<string>
+
+1744400036 c:\datos\programación\c++\cursoprogramacion\tareassegundosemestre(notodas)\enlistadocombinaciones\programa\capturasegura.tpp
+	<iostream>
+
