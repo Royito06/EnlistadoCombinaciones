@@ -53,11 +53,13 @@ int main()
 
     cout << "\nGenerando combinaciones de un conjunto de tama\244o " << n << " en cadenas de tama\244o " << r <<":\n";
 
-    string filename;
+    string filenameIncompleto;
     cout << "\nIngrese el nombre del archivo CSV: ";
 
     cin.ignore();
-    cin>>filename;
+    cin>>filenameIncompleto;
+
+    string filename=filenameIncompleto+".csv";
 
     int combinacionesGeneradas=0;
     generarCombinaciones(n,combinacionesGeneradas, r, filename);
