@@ -40,7 +40,7 @@ int main()
         }
 
         cout<<"Ingrese el tama\244o de la combinaci\242n (r) con r <= n: ";
-        cin>>n;
+        cin>>r;
         if (capturaSegura(r)&&r<=n)
             break;
 
