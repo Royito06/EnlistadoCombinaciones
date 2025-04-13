@@ -15,7 +15,7 @@ Este proyecto en C++ genera todas las r-combinaciones posibles de un conjunto {1
 ## 💻 Requisitos del sistema
 - Compilador C++: `g++` versión 9.0 o superior (compatible con Windows y Linux).
 - Memoria RAM: Mínimo 2GB (recomendado 4GB+ para combinaciones grandes).
-- Sistema operativo: Windows 10/11 o Linux (Ubuntu, Debian).
+- Sistema operativo: Windows 10/11 o Linux.
 
 ---
 
